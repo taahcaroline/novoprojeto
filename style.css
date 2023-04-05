@@ -19,7 +19,7 @@
   min-height: 200px;
 }
 /* Serviços disponíveis */
-.header { 
+/* .header { 
   grid-area: 4 / 2 / 5 / 4;
   background-color:#FFFFE0; 
   text-align:center;
@@ -46,8 +46,10 @@
   margin-left: 50px;
   text-align:center;
   border-radius: 20px;
-  }
+  } */
 
+  
+/* Sobre e habilidades */
 .sidebar1 { 
   grid-area: 5 / 2 / 6 / 5;
   background-color:#FFF8DC;
@@ -58,7 +60,7 @@
   grid-area: 5 / 5 / 6 / 8; 
   background-color:#FFF8DC; 
   text-align:justify;
-  margin-left: 30px;
+  margin-left: 35px;
   margin-right: 20px;
   
 
@@ -75,6 +77,7 @@
   background-color:#FFF8DC;
   margin-top: 10px;}
 
+  /* Titulo do cabeçalho */
 
 h3.tituloheader{
   font-family: 'Shantell Sans', cursive;
@@ -82,20 +85,21 @@ h3.tituloheader{
   
   
 }
+/* Titulo das grids */
 h3.tituloh3 {
   font-family: 'Montserrat', sans-serif;
   font-size:23px;
   text-align:center;
   text-transform:uppercase;
   letter-spacing: 2px;
-  margin-top: 10px;
+  margin-top: 20px;
   
 
 }
 .portfolio{ grid-area: 8 / 1 / 11 / 9;
    margin-top: 30%;
    background-color:#FFF8DC;}
-
+/* Menu */
 #menu-h{
     background-color: #ffffff;
     text-align:right;
@@ -132,7 +136,7 @@ h3.tituloh3 {
     background-color: #FFFACD;
 }
 
-/* Style the container with a rounded border, grey background and some padding and margin */
+/* Testmonials */
 #container {
   border: 2px solid #ccc;
   background-color: #eee;
@@ -209,7 +213,7 @@ p.textosidebar{
 
 
 
-.headertext {
+/* .headertext {
   grid-area: 3 / 2 / 4 / 8;
   background-color: #FFFFE0;
   display: flex;
@@ -229,5 +233,70 @@ p.textosidebar{
   font-size: 18px;
   color: #333;
   margin: 10px 0;
+} */
+/* Meus serviços */
+.header-container {
+  position: relative;
+  grid-area: 4 / 2 / 5 / 4;
+  margin-left: 30px;
+  margin-top: -70px;
 }
 
+.header {
+  background-color:#FFFFE0; 
+  text-align:center;
+  height: 200px;
+  width:300px;
+  border-radius: 20px;
+}
+
+.header2-container {
+  position: relative;
+  grid-area: 4 / 4 / 5 / 6;
+  margin-left: 40px;
+  margin-top: -70px;
+}
+
+.header2 {
+  background-color:#FFFACD; 
+  text-align:center;
+  height: 200px;
+  width:300px;
+  border-radius: 20px;
+}
+
+.header3-container {
+  position: relative;
+  grid-area: 4 / 6 / 5 / 8;
+  margin-left: 50px;
+  margin-top: -70px;
+}
+
+.header3 {
+  background-color:#FFFFE0;
+  text-align:center;
+  height: 200px;
+  width:300px;
+  border-radius: 20px;
+  
+}
+
+.titulo-container {
+  grid-column: 2 / 8; /* estende o elemento por todas as colunas */
+  text-align: center;
+  /* align-self: end; */
+  background-color: #FFFFE0;
+  position: relative;
+  height: 60px;
+}
+
+.titulo {
+  font-size: 30px;
+  /* margin-top: 80px; */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+
+}
