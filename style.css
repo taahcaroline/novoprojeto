@@ -53,19 +53,26 @@
 .sidebar1 { 
   grid-area: 5 / 2 / 6 / 5;
   background-color:#FFF8DC;
-  
+  margin-top: 60px;
   text-align:justify;
+  margin-right: 10px;
  }
 .sidebar2 { 
   grid-area: 5 / 5 / 6 / 8; 
   background-color:#FFF8DC; 
   text-align:justify;
-  margin-left: 35px;
-  margin-right: 20px;
-  
+  margin-left: 40px;
+  margin-top: 60px;
+}
 
-  
-  }
+  h2 {
+  grid-column: 2 / 8;
+  grid-row: 5 / 5;
+  margin-top: 100px;
+  background-color: #FFF8DC;
+  height: 50px;
+  text-align: center;
+}
 
 .footer { 
   grid-area: 11 / 1 / 12 / 9; 
@@ -73,7 +80,7 @@
     
       }
 .corpo { 
-  grid-area: 7 / 1 / 9 / 9; 
+  grid-area: 6 / 1 / 9 / 9; 
   background-color:#FFF8DC;
   margin-top: 10px;}
 
@@ -99,6 +106,8 @@ h3.tituloh3 {
 .portfolio{ grid-area: 8 / 1 / 11 / 9;
    margin-top: 30%;
    background-color:#FFF8DC;}
+
+
 /* Menu */
 #menu-h{
     background-color: #ffffff;
