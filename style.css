@@ -238,8 +238,8 @@ p.textosidebar{
 .header-container {
   position: relative;
   grid-area: 4 / 2 / 5 / 4;
-  margin-left: 30px;
-  margin-top: -70px;
+  margin-left: 5px;
+  margin-top: -10px;
 }
 
 .header {
@@ -253,8 +253,8 @@ p.textosidebar{
 .header2-container {
   position: relative;
   grid-area: 4 / 4 / 5 / 6;
-  margin-left: 40px;
-  margin-top: -70px;
+  margin-left: 20px;
+  margin-top: -10px;
 }
 
 .header2 {
@@ -268,8 +268,8 @@ p.textosidebar{
 .header3-container {
   position: relative;
   grid-area: 4 / 6 / 5 / 8;
-  margin-left: 50px;
-  margin-top: -70px;
+  margin-left: 30px;
+  margin-top: -10px;
 }
 
 .header3 {
@@ -284,19 +284,23 @@ p.textosidebar{
 .titulo-container {
   grid-column: 2 / 8; /* estende o elemento por todas as colunas */
   text-align: center;
-  /* align-self: end; */
+  align-self: end; 
   background-color: #FFFFE0;
   position: relative;
-  height: 60px;
+  height: 40px;
+  
 }
 
+
 .titulo {
-  font-size: 30px;
+  font-size: 25px;
   /* margin-top: 80px; */
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
+  border-bottom: 7px dotted #000;
+ 
 
 }
