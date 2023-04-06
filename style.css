@@ -1,4 +1,4 @@
-.parent {
+﻿.parent {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 1fr repeat(2, 0.5fr) repeat(8, 1fr);
@@ -64,14 +64,37 @@
   margin-left: 40px;
   margin-top: 60px;
 }
-
-  h2 {
+/* Sobre mim */
+  #h2{
   grid-column: 2 / 8;
   grid-row: 5 / 5;
-  margin-top: 100px;
-  background-color: #FFF8DC;
+  margin-top: 5px;
+  background-color: #FFFFFF;
   height: 50px;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: blue;
+  text-underline-offset: 5px;
+   font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+}
+
+
+/* Depoimentos titulo */
+  #testmonials{
+  grid-column: 2 / 8;
+  grid-row: 6 / 6;
+  margin-top: 15px;
+  background-color: #FFFFFF;
+  height: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: blue;
+  text-underline-offset: 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
 }
 
 .footer { 
@@ -80,9 +103,9 @@
     
       }
 .corpo { 
-  grid-area: 6 / 1 / 9 / 9; 
+  grid-area: 6 / 1 / 8 / 9; 
   background-color:#FFF8DC;
-  margin-top: 10px;}
+  margin-top: 70px;}
 
   /* Titulo do cabeçalho */
 
@@ -94,10 +117,10 @@ h3.tituloheader{
 }
 /* Titulo das grids */
 h3.tituloh3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Courgette', cursive;
   font-size:23px;
   text-align:center;
-  text-transform:uppercase;
+  
   letter-spacing: 2px;
   margin-top: 20px;
   
@@ -294,7 +317,7 @@ p.textosidebar{
   grid-column: 2 / 8; /* estende o elemento por todas as colunas */
   text-align: center;
   align-self: end; 
-  background-color: #FFFFE0;
+  background-color: #FFFFFF;
   position: relative;
   height: 40px;
   
@@ -309,7 +332,13 @@ p.textosidebar{
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
-  border-bottom: 7px dotted #000;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: blue;
+  text-underline-offset: 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+}
  
 
-}
+
