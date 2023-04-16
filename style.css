@@ -63,7 +63,7 @@ h3.tituloheader{
 .sidebar1 { 
   grid-area: 6 / 2 / 7 / 5;
   background-color:#F5F5F5;
-  margin-top: 180px;
+  margin-top: 200px;
   text-align:justify;
   margin-right: 10px;
  }
@@ -72,22 +72,27 @@ h3.tituloheader{
   background-color:#F5F5F5; 
   text-align:justify;
   margin-left: 40px;
-  margin-top: 180px;
+  margin-top: 200px;
 }
 /* Sobre mim titulo */
   #h2{
   grid-column: 2 / 8;
   grid-row: 6 / 6;
-  margin-top: 100px;
+  margin-top: 120px;
   background-color: #ffffff;
   height: 50px;
   text-align: center;
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-style: solid;
-  text-decoration-color: blue;
+  text-decoration-color: blue; */
   text-underline-offset: 5px;
-   font-family: 'Poppins', sans-serif;
+  /* text-decoration-skip-ink: auto; */
+  font-family: 'Poppins', sans-serif;
   color: #000000;
+  background-image: linear-gradient(to right, #000000, #000000 50%, transparent 50%, transparent);
+  background-position:  56% calc(98% - 1px);
+  background-size: 20% 3px;
+  background-repeat: no-repeat;
   
 }
 
@@ -96,15 +101,18 @@ h3.tituloheader{
   #testmonials{
   grid-column: 2 / 8;
   grid-row: 7 / 7;
-  margin-top: 20px;
+  margin-top: 40px;
   background-color: #ffffff;
   height: 50px;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: blue;
   text-underline-offset: 10px;
   font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  background-image: linear-gradient(to right, #000000, #000000 50%, transparent 50%, transparent);
+  background-position:  56% calc(98% - 1px);
+  background-size: 20% 3px;
+  background-repeat: no-repeat;
   
 }
 /* Rodapé */
@@ -115,9 +123,9 @@ h3.tituloheader{
       }
 /* Grid Depoimentos */
 .corpo { 
-  grid-area: 7 / 1 / 9 / 9; 
-  background-color:#F5F5F5;
-  margin-top: 80px;}
+  grid-area: 7 / 2 / 9 / 8; 
+  background-color:#FFFFFF;
+  margin-top: 120px;}
 
   /* Titulo do cabeçalho */
 
@@ -134,7 +142,7 @@ h3.tituloh3 {
 }
 /* Portfólio */
 .portfolio{ grid-area: 9 / 1 / 12 / 9;
-   margin-top: 10%;
+   margin-top: 15%;
    background-color:#F5F5F5;
    margin-bottom: 50px; }
 
@@ -142,15 +150,16 @@ h3.tituloh3 {
   #tituloportfolio{
   grid-column: 1 / 11;
   grid-row: 9 / 10;
-  margin-top: 40px;
+  margin-top: 90px;
   background-color: #ffffff;
   height: 50px;
   text-align: center;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: blue;
-  text-underline-offset: 5px;
   font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, #000000, #000000 50%, transparent 50%, transparent);
+  background-position:  53% calc(98% - 1px);
+  background-size: 12% 3px;
+  background-repeat: no-repeat;
+  text-underline-offset: 5px;
   color: #000000;  
 } 
 
@@ -194,48 +203,7 @@ h3.tituloh3 {
 }
 
 /* Testmonials */
-#container {
-  border: 2px solid #ccc;
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-/* Clear floats after containers */
-#container::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-#container img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
-}
-
-/* Increase the font-size of a span element */
-#container span {
-  font-size: 20px;
-  margin-right: 15px;
-}
-
-/* Add media queries for responsiveness. This will center both the text and the image inside the container */
-@media (max-width: 500px) {
-  #container {
-    text-align: center;
-  }
-
-  #container img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
-}
 
 p.textosidebar{
   text-align:right;
@@ -311,4 +279,47 @@ p.textosidebar{
   
 }
 
-  
+.depoimentos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 80%;
+
+}
+
+.coluna {
+  flex-basis: 30%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.coluna:last-child {
+  margin-right: 0;
+}
+
+.coluna img {
+  display: block;
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.coluna h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.coluna p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
