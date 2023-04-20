@@ -320,7 +320,66 @@ p.textosidebar{
 }
 
 .coluna p {
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 18px;
   margin-bottom: 0;
 }
+.contato{
+  background-color: #000;
+}
+form {
+  margin: 0 auto;
+  width: 600px;
+  padding: 12px;
+  border: 1px solid #CCC;
+  border-radius: 12px;
+}
+
+form div + div {
+  margin-top: 18px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  color: #fff;
+}
+
+input, textarea {
+  font: 12px sans-serif;
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+
+
+textarea {
+  vertical-align: top;
+  height: 90px;
+}
+
+.button {
+  padding-right: 90px;
+}
+
+button {
+  margin-left: 70px;
+}
+
+#contato{
+  grid-column: 1 / 11;
+  grid-row: 12 / 9;
+  margin-top: 90px;
+  background-color: #ffffff;
+  height: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, #000000, #000000 50%, transparent 50%, transparent);
+  background-position:  53% calc(98% - 1px);
+  background-size: 12% 3px;
+  background-repeat: no-repeat;
+  text-underline-offset: 5px;
+  color: #000000;  
+} 
