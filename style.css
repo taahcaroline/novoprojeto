@@ -17,6 +17,9 @@
 /* Cabeçalho */
 .topo { 
   grid-area: 2 / 1 / 4 / 10;
+  background-image: url(https://images.pexels.com/photos/2473183/pexels-photo-2473183.jpeg);
+  background-position: center;
+  background-size:cover;
   background-color:#000000;
   height: 570px; 
   color:#F5F5F5;
@@ -162,6 +165,10 @@ h3.titleheader{
 #socialmedia{
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 10px;
+  }
+  #socialmedia a {
+    margin-left: 10px;
   }
 
 .contactme{
