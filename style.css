@@ -9,11 +9,11 @@
 
 .menu { 
   grid-area: 1 / 1 / 2 / 10;
-  background-color:#4F4F4F;
+  background-color:transparent;
   text-align:right; 
-  height: 100px;
+  height: 70px;
   
-}
+} 
 /* Cabeçalho */
 .topo { 
   grid-area: 2 / 1 / 4 / 10;
@@ -68,8 +68,8 @@ h3.titleheader{
 }
 
 .sidebar { 
-  grid-area: 7 / 1 / 9 / 9;
-  margin-top: 90px;
+  grid-area: 6 / 1 / 8 / 9;
+  margin-top:-10px;
   text-align:justify;
  }
 .sidebar1 { 
@@ -95,7 +95,7 @@ h3.titleheader{
 /* Sobre mim titulo */
   #h2{
   grid-column: 1 / 9;
-  grid-row: 7 / 7;
+  grid-row: 5 / 5;
   padding-top: 15px;
   background-color: #F5F5F5;
   height: 80px;
@@ -115,7 +115,7 @@ h3.titleheader{
  padding-top: 15px;
 }
   /* Serviços titulo */
-  #servicos{
+  /* #servicos{
     grid-column: 1 / 9;
     grid-row: 5 / 5;
     margin-top: -3px;
@@ -127,16 +127,17 @@ h3.titleheader{
     background-position:  54% calc(98% - 50px);
     background-size: 15% 3px;
     background-repeat: no-repeat;
-  }  
+  }   */
 /* Serviços */
 
   .servicos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 auto;
-    padding: 25px;
-    background-color: #7f7f7f;
+    margin-top: -250px;
+    margin-left: 30px;
+    padding: 0px;
+    background-color: transparent;
     border-radius: 10px;
     max-width: 95%;
   
@@ -147,12 +148,13 @@ h3.titleheader{
     border-radius: 20px;
     background-color: #F5F5F5;
     text-align:center;
+    color:#000000;
    
   }
 /* Grid serviços */
 .services { 
-  grid-area: 5 / 1 / 7 / 9; 
-  background-color:#7f7f7f;
+  grid-area: 3 / 2 / 4 / 8; 
+  background-color:transparent;
   margin-top: 90px;}
 
 /* Rodapé */
