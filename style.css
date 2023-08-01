@@ -302,6 +302,11 @@ p.tecnologias {
  .fa-whatsapp{
   color:#25D366;
  }
+ a.btn{
+  background-color:  #9370DB;
+  color: #000000;
+  border: #9370DB;
+ }
   .footer{
     text-transform: uppercase;
     font-size: 20px;
